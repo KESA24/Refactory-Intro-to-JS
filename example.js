@@ -17,7 +17,7 @@ let c;
 //a computer to reserve space/memory using the Javascript Languauge
 
 b = "World";
-c = " It's me, Kesa again";
+c = "It's me, Kesa again";
 //In the above lines, we are assigning values to the 
 // variables/spaces/memories created in the instances before this.
 
@@ -25,4 +25,10 @@ c = " It's me, Kesa again";
 //The process of assigning a value to a variable is called initialisng 
 //The difference btn const,var,let is in their scope
 
-console.log(a + "\t" + b + "\t" + c);
+console.log(a+"\t"+b +"\n"+c);
+
+//Line 28 tells the computer to output something 
+//on the screen/monitor
+//The + operator puts things together, it concantenates stuff.
+//the \t operator is a special character that includes 
+//space between characters/stuff/value being concatenated. \n takes you to a new line.
