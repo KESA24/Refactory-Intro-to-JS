@@ -1,10 +1,28 @@
 const a = "Hello";
+//const,var, and let are keywords in Javascript. 
+//Line 1 declares a variable called "a" and initialises
+// it with a string called "Hello"
+//Tells the computer to go into the memory and 
+//reserve a space(variable) name that space "a" 
+//and insert a value "Hello" that will not change 
+//over time as in, it is constant
 var b;
+//Line also identifies a space/memory space with a variable that isnt limite
+//called "b" but has no value in this instance
 let c;
-//
+// Line 12 is the same as line 2 but the scope of this variable
+// will be limited
+
+//We have seen three different ways in which to tell 
+//a computer to reserve space/memory using the Javascript Languauge
 
 b = "World";
-c = "Kesa again";
+c = " It's me, Kesa again";
+//In the above lines, we are assigning values to the 
+// variables/spaces/memories created in the instances before this.
 
-// 
+//The process of creating a variable is called declaring
+//The process of assigning a value to a variable is called initialisng 
+//The difference btn const,var,let is in their scope
+
 console.log(a + "\t" + b + "\t" + c);
