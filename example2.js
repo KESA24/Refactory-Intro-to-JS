@@ -2,13 +2,13 @@
 
 //Algorithm a step by step process of solving a problem
 //Declaring and initialising the variable
-const num = 10;
+const num =10;
 const num2 = 20;
 const sum = (num+num2);
 
 const num3 = "d";
 const num4 = [5+3];
-let a;
+let a = 0;
 let b;
 let c = a + b;
 //num = 100;
