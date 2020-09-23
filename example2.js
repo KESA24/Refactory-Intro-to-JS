@@ -6,5 +6,6 @@ const num = 10;
 const num2 = 20;
 const sum = (num+num2);
 
-num = 100;
+//num = 100;
 console.log(sum);
+console.log (typeof(num));
