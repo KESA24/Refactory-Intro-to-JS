@@ -6,8 +6,9 @@ const a = "Hello";
 //reserve a space(variable) name that space "a" 
 //and insert a value "Hello" that will not change 
 //over time as in, it is constant
+//When declaring a constant, you must give it a value
 var b;
-//Line also identifies a space/memory space with a variable that isnt limite
+//Line also identifies a space/memory space with a variable that isnt limited
 //called "b" but has no value in this instance
 let c;
 // Line 12 is the same as line 2 but the scope of this variable
@@ -31,4 +32,5 @@ console.log(a+"\t"+b +"\n"+c);
 //on the screen/monitor
 //The + operator puts things together, it concantenates stuff.
 //the \t operator is a special character that includes 
-//space between characters/stuff/value being concatenated. \n takes you to a new line.
+//space between characters/stuff/value being concatenated. 
+// \n takes you to a new line.
