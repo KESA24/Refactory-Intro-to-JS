@@ -9,8 +9,8 @@ let ans5 = ans!=ans2;// ! stands for (not), in this instance this means not equa
 let ans6 = ans===ans2; //=== equal sign operator that compares both value and data type while == compares only value.
 let b = 3;
 let c = "3";
-let a = b==c; // checks the value only
-let d = b===c; // checks he value and data type
+let a = b==c; // checks the value only, returns true.
+let d = b===c; // checks he value and data type, returns false.
 console.log(a,d);
 
 let ans7 = ans<ans2 ? ans:ans2; // ":" means otherwise, "?" is a tenary operator,This statement checks whether ans is less than ans 2 
@@ -29,5 +29,10 @@ console.log(ans5);
 console.log(ans6);
 console.log(ans7);
 
-
+//Naming of variables
+//Never start a variable with a number or special characters
+//dont use keywords as names of variables
+//do not leave spaces in the variable names
+//never assign variable names that do not make sense
+//If you have a variable with two words, you can separate with _ or camel notation (myName)
 
