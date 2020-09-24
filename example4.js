@@ -5,3 +5,5 @@ function myNum() {
 
     console.log(sum);
 }
+
+myNum(); //This is known as calling a functions./ Function call/Function invoketion
