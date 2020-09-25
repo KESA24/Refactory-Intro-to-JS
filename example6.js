@@ -33,3 +33,17 @@ function evenNum(num5){
     }
 }
 evenNum(10);
+
+//if else statements
+function checkNumType(num){
+    if(num%2 !=0){
+        console.log(num+ " " + "is an odd number");
+    }
+    else{
+        console.log(num + " "+ "is an even number");
+    }
+}
+
+checkNumType(20);
+
+checkNumType(43);
