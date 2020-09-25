@@ -14,5 +14,6 @@ checkNum(7);
 
 let a;
 let b;
+let d;
 let c = a+b;
 console.log (c);
