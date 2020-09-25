@@ -17,3 +17,19 @@ let b;
 let d;
 let c = a+b;
 console.log (c);
+
+//Functions that check for odd numbers
+
+function oddNum(num5){
+    if ((num5 % 2) !== 0){
+        console.log( num5 +" " +"is an odd number");
+    }
+}
+oddNum(7);
+
+function evenNum(num5){
+    if ((num5 % 2) == 0){
+        console.log( num5 +" " +"is an even number");
+    }
+}
+evenNum(10);
