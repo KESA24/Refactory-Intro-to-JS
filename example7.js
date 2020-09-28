@@ -1,8 +1,12 @@
-
-
 function myNum (a,b,c){
-    c = Array (a,b,c);
-    console.log(c[0])
+    let k = Array (a,b,c);
+   
+    for(i = 0; i < k.length; i++){
+        console.log(k[i]);
+    }
+    //console.log(k[2]);   //Array indexing starts from 0 to 9 
+    
+    
 }
 
 myNum(11,12,5);
