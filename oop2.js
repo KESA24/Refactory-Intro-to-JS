@@ -54,3 +54,21 @@ let table = {
 
 console.log (table.color);
 table.capapcity();
+
+//The code below is an example of function being turned into an instance of an object.
+function cow(color, breed, name,milkQuantity,owner,size,weight){
+    //this. defines a property of an object eg. this.color = color means the value of this.color is the value passed in the instance "color".
+    this.color = color;   
+    this.breed = breed;
+    this.name = name;
+    this.milkQuantitiy = milkQuantity;
+    this.owner = owner;
+    this.size = size;
+    this.weight = weight;
+}
+
+var cow1 = new cow("Black","Fresian","Bihogo","8 liters", "Kesa's Ranch", "2meters","700kgs");
+console.log(cow1.name);
+var cow2 = new cow("white", "Ankole", "Alex", "30liters", "Ssewanyana","4meters", "400kg");
+console.log(cow2.owner);
+console.log(cow2);
