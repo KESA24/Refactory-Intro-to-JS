@@ -65,10 +65,16 @@ function cow(color, breed, name,milkQuantity,owner,size,weight){
     this.owner = owner;
     this.size = size;
     this.weight = weight;
+    this.cry = function(){
+        console.log("Moooooooo");
+    }
 }
 
+//A constructor is used to give vaule to an instatiated object.
+//Therefore a constructor is used to initialise an instatiated object.
 var cow1 = new cow("Black","Fresian","Bihogo","8 liters", "Kesa's Ranch", "2meters","700kgs");
 console.log(cow1.name);
 var cow2 = new cow("white", "Ankole", "Alex", "30liters", "Ssewanyana","4meters", "400kg");
 console.log(cow2.owner);
 console.log(cow2);
+cow2.cry();
