@@ -17,3 +17,6 @@ console.log(myoop.make);
 myoop.year 
 
 
+//An array is an object
+//A function is a first class object
+
