@@ -1,4 +1,4 @@
-/* http is a wed transfer protocol and shows how things are done
+ http is a web transfer protocol and shows how things are done
 http://127.0.0.1
 
 https - means the website is secured
