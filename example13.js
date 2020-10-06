@@ -13,3 +13,18 @@ const classDemo = document.getElementsByClassName("demo");
 for (item = 0; item < classDemo.length; item++){
     classDemo[item].style.border = "3px solid blue";
 }
+
+const demoTag = document.getElementsByTagName("article");
+for (item = 0; item < demoTag.length; item++){
+    demoTag[item].style.border = "2px solid red";
+}
+
+//Do not forget the dot(.) and hashtag(#) to identif the classes and id
+const demoQuery = document.querySelector(".demo-query");
+demoQuery.style.border = "2px solid yellow";
+
+//Using For each to access elements.  Do not forget the (.)dot to access a class.
+const demoQueryAll = document.querySelectorAll(".demo-query-all");
+demoQueryAll.forEach(item => {
+    item.style.border = "2px solid green";
+})
