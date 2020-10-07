@@ -25,8 +25,10 @@ function creatediv(){
     container.appendChild(block);
     
     block.style.color = "red";
-    block.style.border = "1px solid yellow"
-    block.style.height = "40px"
+    block.style.border = "1px solid blue";
+    block.style.height = "40px";
+    block.style.marginTop = "20px";
+    
 }
 
 creatediv();
@@ -46,9 +48,11 @@ var div1 = () => {
     container = document.getElementById("container");
     container.appendChild(block);
     
+    
     block.style.color = "red";
-    block.style.border = "1px solid yellow"
-    block.style.height = "40px"
+    block.style.border = "1px solid purple";
+    block.style.height = "40px";
+    block.style.marginTop = "20PX";
 }
 
 div1();
