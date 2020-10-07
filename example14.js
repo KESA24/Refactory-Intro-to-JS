@@ -30,3 +30,25 @@ function creatediv(){
 }
 
 creatediv();
+
+//Another way of creating/defining functions is ES - Europeaan Standard
+//European Computer Manufacturing Association Standard (ECSMAS)  
+//ECMAS created the European Standad of Javascript
+
+
+//This is ES-6 standard for writing functions in JS
+// => is an arrow function 
+var div1 = () => {    
+    var block;
+    var container;
+    block = document.createElement("div");
+    block.innerHTML = "This div was created/inserted using  a javascript using ES6 standards";
+    container = document.getElementById("container");
+    container.appendChild(block);
+    
+    block.style.color = "red";
+    block.style.border = "1px solid yellow"
+    block.style.height = "40px"
+}
+
+div1();
