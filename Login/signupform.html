@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="form.css" />
   </head>
   <body>
+    <script src="formprocess.js"></script>
     <br />
     <br />
     <br />
@@ -20,13 +21,13 @@
         <div class="col-md-3"></div>
 
         <div class="col-md-6 main">
-          <form action="/sign_up" method="post">
+          <form name="signupForm" method="post">
             <h1>Signup form</h1>
 
             <input
               class="box"
               type="text"
-              name="name"
+              name="userName"
               id="name"
               placeholder="Name"
               required

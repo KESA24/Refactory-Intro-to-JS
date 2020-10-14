@@ -11,7 +11,7 @@ let sub = () => {
 
 
 
-    //let text = /^[A-Za-z]+$/;
+    let text = /^[A-Za-z]+$/;
 
     //if(userName.value.match(text)){
        // alert("Right Input");
