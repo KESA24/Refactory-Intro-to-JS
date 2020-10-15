@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>Signup Form</title>
-
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -12,64 +11,24 @@
     <link rel="stylesheet" type="text/css" href="form.css" />
   </head>
   <body>
-    <script src="formprocess.js"></script>
+    <script src="./formprocess.js"></script>
     <br />
     <br />
     <br />
     <div class="container">
       <div class="row">
         <div class="col-md-3"></div>
-
         <div class="col-md-6 main">
-          <form name="signupForm" method="post">
+          <form name="signupForm" method="">
             <h1>Signup form</h1>
-
-            <input
-              class="box"
-              type="text"
-              name="userName"
-              id="name"
-              placeholder="Name"
-              required
-            /><br />
-
-            <input
-              class="box"
-              type="email"
-              name="email"
-              id="email"
-              placeholder="E-Mail "
-              required
-            /><br />
-
-            <input
-              class="box"
-              type="password"
-              name="password"
-              id="password"
-              placeholder="Password "
-              required
-            /><br />
-
-            <input
-              class="box"
-              type="text"
-              name="phone"
-              id="phone"
-              placeholder="Phone Number "
-              required
-            /><br />
+            <input class="box" type="text" name="userName" id="name" placeholder="Name"/><br />
+            <input class="box" type="email" name="email" id="email" placeholder="E-Mail "/><br />
+            <input class="box" type="password"name="password" id="password"placeholder="Password "/><br />
+            <input class="box" type="text" name="phone" id="phone" placeholder="Phone Number " /><br />
             <br />
-            <input
-              type="submit"
-              id="submitDetails"
-              name="submitDetails"
-              value="Submit"
-            /><br />
+            <input type="button" id="submitDetails" name="submitDetails" value="Submit" onclick="signupFormAccess()"/><br />
           </form>
         </div>
-
-        <div class="col-md-3"></div>
       </div>
     </div>
   </body>
